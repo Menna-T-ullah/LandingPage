@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boom</title>
+    <link rel="stylesheet" href="landingPage.css">
+    <link rel="shortcut icon"  href="logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.png"></div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li><a href="" active>Home</a></li>
+                <li><a href="">Genres</a></li>
+                <li><a href="">Sketches</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><button>Login</button></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    <div class="container">
+        <div class="slider">
+            <input type="radio" class="radio" name="images" id="radio-1" checked>
+            <input type="radio" class="radio" name="images" id="radio-2">
+            <input type="radio" class="radio" name="images" id="radio-3">
+            <input type="radio" class="radio" name="images" id="radio-4">
+            <div class="slide" id="slide-1">
+                <img src="comic1.png"><div class="caption"><p>DareDevil: </p>Born Again</div>
+            </div>
+            <div class="slide" id="slide-2">
+                <img src="comic2.png"><div class="caption"><p>Saga: </p>Chapter 1</div>
+            </div>
+            <div class="slide" id="slide-3">
+                <img src="comic3.png"><div class="caption"><p>Nimona: </p>Noelle Stevenson</div>
+            </div>
+            <div class="slide" id="slide-4">
+                <img src="comic4.png"><div class="caption"><p>Adventure Zone: </p>Eleventh Hour</div>
+            </div>
+            <div class="dots">
+                <label for="radio-1" id="label-1"></label>
+                <label for="radio-2" id="label-2"></label>
+                <label for="radio-3" id="label-3"></label>
+                <label for="radio-4" id="label-4"></label>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <h1 class="heading">Comics</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="list1.png">
+                <h3>Book of celestial power</h3>
+                <p>Fantasy</p>
+                <a href="#" class="btn">Read now</a>
+            </div>
+            <div class="box">
+                <img src="list2.png">
+                <h3>birth of venom</h3>
+                <p>Superhero</p>
+                <a href="#" class="btn">Read now</a>
+            </div>
+            <div class="box">
+                <img src="list3.png">
+                <h3>Maus</h3>
+                <p>Historical</p>
+                <a href="#" class="btn">Read now</a>
+            </div>
+            <div class="box">
+                <img src="list4.png">
+                <h3>Amarillo</h3>
+                <p>Superhero</p>
+                <a href="#" class="btn">Read now</a>
+            </div>
+            <div class="box">
+                <img src="list5.png">
+                <h3>Palestine</h3>
+                <p>Superhero</p>
+                <a href="#" class="btn">Read now</a>
+            </div>
+            <div class="box">
+                <img src="list7.png">
+                <h3>Goodbye Eri</h3>
+                <p>Manga</p>
+                <a href="#" class="btn">Read now</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerContainer">
+            <diV class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </diV>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Genres</a></li>
+                    <li><a href="">Sketches</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023  Boom Cmoics.</p>
+        </div>
+    </footer>
+</body>
+</html>
